@@ -1,0 +1,46 @@
+{
+  "audit_version": 1,
+  "source_filename": "twcs.csv",
+  "source_size_bytes": 516508641,
+  "columns": [
+    "tweet_id",
+    "author_id",
+    "inbound",
+    "created_at",
+    "text",
+    "response_tweet_id",
+    "in_response_to_tweet_id"
+  ],
+  "total_rows": 2811774,
+  "brand": "SpotifyCares",
+  "brand_rows": 43265,
+  "brand_rows_with_parent_reference": 43243,
+  "inbound_counts": {
+    "false": 1273931,
+    "true": 1537843
+  },
+  "brand_inbound_counts": {
+    "false": 43265
+  },
+  "spotify_author_counts": {
+    "SpotifyCares": 43265
+  },
+  "blank_field_counts": {
+    "author_id": 0,
+    "created_at": 0,
+    "in_response_to_tweet_id": 794335,
+    "inbound": 0,
+    "response_tweet_id": 1040629,
+    "text": 0,
+    "tweet_id": 0
+  },
+  "elapsed_seconds": 29.54,
+  "warnings": [],
+  "limitations": [
+    "Tweet rows are not conversation counts.",
+    "Missing parent fields can be legitimate root tweets.",
+    "Referenced tweet existence has not yet been checked.",
+    "Duplicate IDs have not yet been checked.",
+    "No model-input or evaluation splits exist yet."
+  ]
+}

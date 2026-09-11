@@ -1,0 +1,20 @@
+{
+  "brand": "SpotifyCares",
+  "source_filename": "twcs.csv",
+  "source_size_bytes": 516508641,
+  "source_rows": 2811774,
+  "brand_authored_rows": 43265,
+  "connected_existing_tweets": 91889,
+  "connected_inbound_tweets": 48543,
+  "missing_referenced_tweets": 974,
+  "elapsed_seconds": 50.1,
+  "duplicate_id_policy": "Fail on duplicate tweet IDs.",
+  "graph_policy": "Follow both reply-reference columns in both directions for grouping; retain missing referenced IDs.",
+  "limitations": [
+    "These are tweet counts, not conversation counts.",
+    "Connected graphs may contain multiple brands.",
+    "Connected graphs may contain branches.",
+    "Exported source records contain future replies.",
+    "No model inputs, labels, or evaluation splits exist yet."
+  ]
+}

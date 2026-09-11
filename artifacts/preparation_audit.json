@@ -1,0 +1,41 @@
+{
+  "connected_components": 28280,
+  "eligible_cases_before_splitting": 46381,
+  "excluded_incoming_turns": {
+    "not_clearly_addressed_to_brand": 1712,
+    "multi_brand_component": 353,
+    "missing_ancestor": 97
+  },
+  "historical_dev_cutoff": "2017-11-16T01:40:21+00:00",
+  "dev_test_cutoff": "2017-11-22T12:59:20+00:00",
+  "crossing_component_cases_excluded": 1960,
+  "normalized_exact_duplicates_removed": {
+    "historical": 0,
+    "dev": 130,
+    "test": 275
+  },
+  "pool_sizes": {
+    "historical": 32220,
+    "dev": 3752,
+    "test": 8044
+  },
+  "sampling_seed": 42,
+  "annotation_counts": {
+    "dev": 30,
+    "representative_test": 90,
+    "stress_test": 30
+  },
+  "historical_cases_with_brand_response": 28621,
+  "evaluation_inputs_sha256": "934dd0f68379fc1e2ad31dd90b998a2fcbea209b161aa98c32f5d780f3d308ab",
+  "sampling_unit": "One randomly selected eligible turn per conversation, followed by conversation-level sampling.",
+  "stress_sampling": "Random sample from remaining cases matching documented lexical, short-message, or context-length heuristics.",
+  "limitations": [
+    "No semantic near-duplicate detection has been performed.",
+    "Customer-author overlap has not been measured.",
+    "Language is not automatically filtered.",
+    "Incomplete ancestry and multi-brand components are excluded.",
+    "Historical replies are not verified successful resolutions.",
+    "Stress heuristics are not human risk or intent labels.",
+    "Representative sampling is not raw tweet-turn traffic sampling."
+  ]
+}

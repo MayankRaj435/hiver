@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "historical_pool_cases": 28621,
+  "indexed_cases": 5000,
+  "indexed_conversations": 5000,
+  "vocabulary_size": 30000,
+  "evaluation_conversation_overlap": 0,
+  "evaluation_inputs_sha256": "934dd0f68379fc1e2ad31dd90b998a2fcbea209b161aa98c32f5d780f3d308ab",
+  "indexed_text": "Historical customer message only.",
+  "selection": "Seeded shuffle, one case per historical conversation, up to the configured maximum.",
+  "limitations": [
+    "Lexical similarity is not calibrated confidence.",
+    "Historical replies are not verified successful resolutions.",
+    "Acknowledgement and handoff replies remain in the index.",
+    "Evidence applicability requires separate assessment.",
+    "No public-data redistribution or remote-upload approval is implied by creating this local index."
+  ]
+}
