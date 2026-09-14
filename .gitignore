@@ -20,7 +20,9 @@ __pycache__/
 # Local customer data
 data/raw/
 data/processed/
-
+!data/processed/prepared/
+!data/processed/prepared/annotation.csv
+!data/processed/human_judgments.csv
 # Local databases
 *.sqlite
 *.sqlite-journal
@@ -37,3 +39,5 @@ Thumbs.db
 
 data/annotation_backups/
 artifacts/retrieval/
+artifacts/agent_dev/
+artifacts/baselines/

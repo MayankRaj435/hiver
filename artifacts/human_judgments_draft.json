@@ -1,0 +1,62 @@
+[
+  {
+    "example_id": "spotify_677741",
+    "customer_message": "[HANDLE] having issues with music play. Nothing played, log in issues maybe..",
+    "reply": "Hi! We are here to help. Can you tell us more about what's going on with your login and playback?",
+    "human_score": 1
+  },
+  {
+    "example_id": "spotify_592816",
+    "customer_message": "[HANDLE] Ok. Thanks!",
+    "reply": "You're welcome! If you have any other questions, you know where to reach us. Have a good day",
+    "human_score": 1
+  },
+  {
+    "example_id": "spotify_2944912",
+    "customer_message": "Yo [HANDLE]. How do you create your own artist page on Spotify and get access to it? I'm tryna upload sum music on there",
+    "reply": "To upload music to Spotify and claim your artist page, you will generally need to work through a music distributor who delivers your tracks to our platform. Once your music is live on Spotify, you can request access to Spotify for Artists to manage your profile.",
+    "human_score": 1
+  },
+  {
+    "example_id": "spotify_2699563",
+    "customer_message": "[HANDLE]  I have just signed up to Family Premium. I am unable to invite friends as when I click on Premium for Family on the left side nothing comes up. What do I need to do",
+    "reply": "Hi there! We would love to help you get your Family plan set up. Since this involves your specific account details, could you please send us a DM with your account's email address so we can take a look?",
+    "human_score": 1
+  },
+  {
+    "example_id": "spotify_2913776",
+    "customer_message": "WORK [HANDLE]",
+    "reply": "Could you please share a bit more detail about what is not working so we can better assist you?",
+    "human_score": 1
+  },
+  {
+    "example_id": "spotify_2862761",
+    "customer_message": "[HANDLE] I can\u2019t get into my account because I forgot my password. I have requested an email link too change it but nothing has come through. I have done this a few times over the last few days, nothing in my junk box either. Can you please help with this?",
+    "reply": "We are unable to access your account details or manually send password reset links from here. For assistance with recovering your account when emails are not arriving, please reach out to our support team directly through the official contact options on our website.",
+    "human_score": 1
+  },
+  {
+    "example_id": "spotify_448843",
+    "customer_message": "[HANDLE] i finally got it. now what do ? ;)",
+    "reply": "Awesome! Let us know if you ever need anything else.",
+    "human_score": 1
+  },
+  {
+    "example_id": "spotify_2919405",
+    "customer_message": "[HANDLE] thanks for letting someone change my email and lock me out of my account. So cool you guys don\u2019t have a phone number to help",
+    "reply": "We are sorry to hear you are locked out of your account. Because this involves potential account access changes and security, we need to escalate this to our human support team to assist you securely.",
+    "human_score": 1
+  },
+  {
+    "example_id": "spotify_104118",
+    "customer_message": "[HANDLE] where tf do I buy premium in the app???? Sos",
+    "reply": "Hi there! For help with upgrading your account or finding subscription options, please log in through a web browser on your computer or mobile device to manage your plan.",
+    "human_score": 1
+  },
+  {
+    "example_id": "spotify_2826945",
+    "customer_message": "Get ramz barking on [HANDLE]",
+    "reply": "Hi there! We would love to have all tracks available on Spotify, but music availability depends on rights and licensing agreements. Hopefully we will have it in the future!",
+    "human_score": 1
+  }
+]

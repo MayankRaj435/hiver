@@ -98,7 +98,7 @@ Return the requested JSON schema.
 
 
 class AgentDraft(BaseModel):
-    model_config = ConfigDict(extra="forbid")
+    # model_config = ConfigDict(extra="forbid")
 
     intent: Intent
     reply: str = Field(min_length=1, max_length=1800)
