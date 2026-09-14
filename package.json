@@ -1,0 +1,43 @@
+{
+  "name": "spotify-support-agent",
+  "version": "1.0.0",
+  "description": "[![Status](https://img.shields.io/badge/Status-Complete-success.svg)](#) [![Dataset](https://img.shields.io/badge/Dataset-Kaggle%20Twitter-blue.svg)](#) [![Model](https://img.shields.io/badge/Model-Gemini%202.5%20Flash-orange.svg)](#)",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MayankRaj435/hiver.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MayankRaj435/hiver/issues"
+  },
+  "homepage": "https://github.com/MayankRaj435/hiver#readme",
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.5.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "autoprefixer": "^10.6.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^13.2.0",
+    "next": "^16.3.5",
+    "postcss": "^8.5.28",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "tailwind-merge": "^3.7.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2"
+  }
+}

@@ -41,3 +41,6 @@ data/annotation_backups/
 artifacts/retrieval/
 artifacts/agent_dev/
 artifacts/baselines/
+
+node_modules/
+.next/

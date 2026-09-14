@@ -1,0 +1,8 @@
+data/
+notebooks/
+tests/
+report/
+artifacts/agent_dev/
+artifacts/baselines/
+*.csv
+*.jsonl
